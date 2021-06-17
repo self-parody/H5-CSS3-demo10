@@ -24,10 +24,9 @@
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(4px);
         }
-        
-        .word span{
-            font-size: 30px;
-            animation: light 2s linear infinite;
+         .word span{      
+            font-size: 40px;
+            animation: light 4s linear infinite;      
         }
         .word span:nth-child(1){
             animation-delay: 0.4s;
@@ -38,20 +37,35 @@
         .word span:nth-child(3){
             animation-delay: 1.2s;
         }
+        .word span:nth-child(4){
+            animation-delay: 1.6s;
+        }
+        .word span:nth-child(5){
+            animation-delay: 2.0s;
+        }
+        .word span:nth-child(6){
+            animation-delay: 2.4s;
+        }
+        .word span:nth-child(7){
+            animation-delay: 2.8s;
+        }
+        .word span:nth-child(8){
+            animation-delay: 3.2s;
+        }
         @keyframes light{
             0%,100%{
-                color: white;                
+                color: white;
                 text-shadow: 1px 1px 2px rgb(241, 127, 146),
-                0 0 10px rgb(238, 83, 109),
-                0 0 20px rgb(238, 83, 109),
-                0 0 30px rgb(238, 83, 109),
-                0 0 40px rgb(238, 83, 109),
-                0 0 100px rgb(238, 83, 109),
-                0 0 200px rgb(238, 83, 109),
-                0 0 300px rgb(238, 83, 109),
-                0 0 400px rgb(238, 83, 109);
+                    0 0 10px rgb(238, 83, 109),
+                    0 0 20px rgb(238, 83, 109),
+                    0 0 30px rgb(238, 83, 109),
+                    0 0 40px rgb(238, 83, 109),
+                    0 0 100px rgb(238, 83, 109),
+                    0 0 200px rgb(238, 83, 109),
+                    0 0 300px rgb(238, 83, 109),
+                    0 0 400px rgb(238, 83, 109);
             }
-            7%,93%{
+            6%,96%{
                 color: #333;
                 text-shadow:none;
             }
@@ -61,9 +75,14 @@
 <body>
 <!-- 发光字体 -->
     <div class="word">
-        <span>发</span>
-        <span>个</span>
-        <span>光</span>
+        <span>g</span>
+        <span>a</span>
+        <span>m</span>
+        <span>e</span>
+        <span>o</span>
+        <span>v</span>
+        <span>e</span>
+        <span>r</span>
     </div>
     
 <!--   玻璃拟态   -->
